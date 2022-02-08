@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(167, 124, 124);
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10 white;
+}
+
+/* home */
+#Home{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-image: url('self.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+}
+section{
+    padding: 50px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: right;
+    top: 50%;
+    left: 400px;
+}
+.headings span{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1.5em;
+    font-weight: 500;
+    color: darkslateblue;
+}
+h3{
+    font-family: century;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.5em;
+    font-weight: 500;
+    color: darkred;
+}
+.btn{
+    padding: 10px 35px;
+    background-color: #2196f3;
+    border: 1px solid white;
+    color: black;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: red;
+    box-shadow: 0 0 5px whitesmoke;
+    font-weight: bold;
+}
+
+/* ABOUT SECTION */
+#About{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 0px;
+    background-color: bisque;
+    
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Contact */
+#Contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: burlywood;
+    padding: 20px;
+}
+.headings{
+    text-align: center;
+    font-size: 24px;
+    color: darkred;
+}
+.contact {
+    text-align: center;
+    font-size: 20px;
+    color: darkslategray;
+    font-family: 500;
+}
+p{
+    font-size: 20px;
+    color: black;
+}
+
